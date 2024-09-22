@@ -1,12 +1,24 @@
-/* style.css */
-/* Burada kendi CSS stilinizi oluşturabilirsiniz. Örneğin: */
+/* Modern bir CSS framework kullanarak daha hızlı ve kolay tasarım yapabilirsiniz.
+   Örneğin, Bootstrap, Bulma veya Tailwind CSS gibi. */
+
 .container {
-    text-align: center;
-    margin: 50px auto;
+    max-width: 400px;
+    margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Diğer CSS stillerinizi buraya ekleyin */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
